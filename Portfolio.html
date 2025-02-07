@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Dharaneswar</a>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#skillset" >Skills</a>
+            <a href="#edu" >Education</a>
+            <a href="#projects" >Projects</a>
+            <a href="#contacting" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="https://avatars.githubusercontent.com/u/189696409?s=400&u=3f039c2d95a75afeff763fea632655dd91b49316&v=4" alt="My Profile Photo">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Dharaneswar</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I’m  an AI enthusiast passionate about learning and innovation. I love working on AI-driven projects and exploring new technologies.I'm always eager to learn, collaborate and build something amazing. Let's Connect</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/venkat-dharaneswar-reddy-470a382ab/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Toji339"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/Dharaneswar_10"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section>
+        <div id="projects" class="container">
+            <div class="project">
+                <h2>Music Genre Classification</h2><br>
+                <p>This project involves analyzing audio signals and extracting Mel-Frequency Cepstral Coefficients (MFCCs) to train a neural network for music genre classification. The model effectively categorizes music into different genres based on its features.</p>
+            </div>
+            
+            <div class="project"><br>
+                <h2>Waste Reusage Engine & Efficient Travel Engine</h2><br>
+                <p>Developed during an overnight hackathon, these AI-driven engines utilize pre-trained models from Hugging Face to suggest waste reusability techniques and optimize travel routes for efficiency.</p>
+            </div>
+            
+            <div class="project"><br>
+                <h2>Space Wars Game (Python)</h2><br>
+                <p>A simple but engaging space shooter game built using Python. This project was developed while learning Python and incorporates basic game development concepts like object movement, collision detection, and scoring.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <table class = "table" id = "skillset">
+            <thead>
+                <tr>
+                    <th>Skillset</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>MATLAB</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </section>
+    <section>
+        <div class="education" id = "edu">
+            <h2>Education</h2>
+            <p>
+                I completed most of my schooling in <strong>Vijayawada</strong> before moving to <strong>Hyderabad</strong> for my 
+                intermediate studies at <strong>Narayana</strong>. Currently, I am in my second year, pursuing a 
+                <strong>B.Tech in Artificial Intelligence and Data Science</strong> at 
+                <strong>Amrita Vishwa Vidyapeetham, Bangalore campus</strong>.
+            </p>
+        </div>        
+    </section>
+    <section>
+        <div class="contact", id = "contacting">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Venkata Dharaneswara Reddy | B.Tech - Second Year</p>
+    </footer>
+    
+</body>
+</html>
